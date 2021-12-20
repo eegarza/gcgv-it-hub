@@ -5,23 +5,13 @@ import Main from '@/views/Main'
 Vue.use(VueRouter)
 
 const routes = [{
-    path: '/',
-    name: 'Main',
-    component: Main
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( /* webpackChunkName: "Sample" */ '../views/About.vue')
-  }
-]
+  path: '/',
+  name: 'Main',
+  component: Main
+}]
 
 const router = new VueRouter({
   routes,
-
   // Controls automatic page scroll to top
   // More info at https://router.vuejs.org/guide/advanced/scroll-behavior.html
   scrollBehavior(to) {

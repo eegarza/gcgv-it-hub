@@ -1,8 +1,5 @@
 <template>
-  <footer
-    class="em-c-footer em-u-margin-top-none"
-    role="contentinfo"
-  >
+  <footer class="em-c-footer em-c-footer--condensed" role="contentinfo">
     <div class="em-l-container">
       <div class="em-c-footer__inner">
         <ul
@@ -10,23 +7,16 @@
           role="navigation"
         >
           <li class="em-c-multicolumn-nav__item">
-            <a
-              href="#"
-              class="em-c-multicolumn-nav__link"
-            >vuenity on GitHub</a>
+            <a href="https://goto/vuenity" class="em-c-multicolumn-nav__link">vuenity</a>
           </li>
-          <!-- end em-c-footer-nav__item -->
           <li class="em-c-multicolumn-nav__item">
-            <a
-              href="#"
-              class="em-c-multicolumn-nav__link"
-            >Unity</a>
+            <a href="https://goto/unity" class="em-c-multicolumn-nav__link">Unity</a>
           </li>
-          <!-- end em-c-footer-nav__item -->
-         
+          <li class="em-c-multicolumn-nav__item">
+            <a href="https://ishareteam4.na.xom.com/sites/BaytownIT/_layouts/15/viewlsts.aspx" class="em-c-multicolumn-nav__link">Site Contents</a>
+          </li>
         </ul>
-        <!-- end em-c-footer-nav -->
-         <svg
+        <svg
           class="em-c-logo"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -54,16 +44,17 @@
           />
         </svg>
       </div>
-      <!-- end em-c-footer__inner -->
     </div>
-    <!-- end em-l-container -->
   </footer>
-  <!-- end em-c-footer -->
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped>
+.em-c-footer {
+  margin-top: 0;
+  background: #fbfbfa
+}
 </style>
