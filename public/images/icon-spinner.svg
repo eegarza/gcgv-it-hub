@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="105" height="105" viewBox="0 0 105 105" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="loader" fill="#225896">
+	<defs>
+	    <style type="text/css"><![CDATA[
+
+		circle { fill: #225896;  animation: pulse 1s infinite; } 
+
+        #circle-2 { animation-delay: 0.2s; }
+        #circle-3 { animation-delay: 0.4s; }
+        #circle-4 { animation-delay: 0.6s; }
+        #circle-5 { animation-delay: 0.8s; }
+        #circle-7 { animation-delay: 0.6s; }
+        #circle-8 { animation-delay: 0.4s; }
+        #circle-9 { animation-delay: 0.2s; }
+
+		  @keyframes pulse {
+		    0%   { opacity: 1; }
+		    50% { opacity: 0.4; }
+		    100% { opacity: 1; }
+		  }
+	    ]]></style>
+	  </defs>
+	  <circle cx="12.5" cy="12.5" r="12.5" id="circle-1"></circle>
+    <circle cx="12.5" cy="52.5" r="12.5" id="circle-2"></circle>
+    <circle cx="52.5" cy="12.5" r="12.5" id="circle-3"></circle>
+    <circle cx="52.5" cy="52.5" r="12.5" id="circle-4"></circle>
+    <circle cx="92.5" cy="12.5" r="12.5" id="circle-5"></circle>
+    <circle cx="92.5" cy="52.5" r="12.5" id="circle-6"></circle>
+    <circle cx="12.5" cy="92.5" r="12.5" id="circle-7"></circle>
+    <circle cx="52.5" cy="92.5" r="12.5" id="circle-8"></circle>
+    <circle cx="92.5" cy="92.5" r="12.5" id="circle-9"></circle>
+</svg>
