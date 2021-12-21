@@ -4,7 +4,7 @@
       <vu-container padding="2rem 4rem 3rem">
         <vu-section underline blue>IT Service Request Links</vu-section>
 
-        <ul class="em-c-card-list em-l-grid em-l-grid--3up">
+        <ul class="em-c-card-list em-l-grid em-l-grid--4up">
           <li
             class="em-c-card-list__item em-l-grid__item"
             v-for="(link, index) in links"
@@ -76,6 +76,6 @@ export default {
 }
 
 .em-c-card {
-  border: 1px solid #e5e5e5;
+  border: 1px solid #f5f5f5;
 }
 </style>
