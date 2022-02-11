@@ -12,6 +12,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
     "@dovyp/vuepress-plugin-clipboard-copy": "^1.0.0-alpha.7",
+    "@types/node-forge": "^1.0.0",
     "@types/postcss-modules-local-by-default": "^4.0.0",
     "@types/postcss-modules-values": "^4.0.0",
     "@vue/component-compiler-utils": "^3.3.0",
@@ -35,6 +36,7 @@
     "nth-check": "^2.0.1",
     "postcss": "^8.3.0",
     "prismjs": "^1.25.0",
+    "selfsigned": "^2.0.0",
     "svg4everybody": "^2.1.9",
     "url-parse": "^1.5.3",
     "vue": "^2.6.14",
