@@ -78,4 +78,8 @@ export default {
 .em-c-card {
   border: 1px solid #f5f5f5;
 }
+
+.em-c-avatar {
+  border-radius: 10%;
+}
 </style>
