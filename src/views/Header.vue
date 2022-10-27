@@ -11,7 +11,7 @@
         <div class="em-c-header__title-container">
           <h2 class="em-c-header__title">
             <router-link to="/" rel="home" class="em-c-header__title-link"
-              >Baytown Area IT</router-link
+              >GCGV IT Home</router-link
             >
           </h2>
         </div>
