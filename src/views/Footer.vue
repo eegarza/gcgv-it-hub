@@ -7,13 +7,13 @@
           role="navigation"
         >
           <li class="em-c-multicolumn-nav__item">
-            <a href="https://goto/vuenity" class="em-c-multicolumn-nav__link">vuenity</a>
+            <a href="https://goto/gcgv" class="em-c-multicolumn-nav__link">GCGV Home</a>
           </li>
           <li class="em-c-multicolumn-nav__item">
-            <a href="https://goto/unity" class="em-c-multicolumn-nav__link">Unity</a>
+            <a href="https://goto/gcgvit" class="em-c-multicolumn-nav__link">GCGV IT Home</a>
           </li>
           <li class="em-c-multicolumn-nav__item">
-            <a href="https://ishareteam4.na.xom.com/sites/BaytownIT/_layouts/15/viewlsts.aspx" class="em-c-multicolumn-nav__link">Site Contents</a>
+            <a href="https://ishareteam4.na.xom.com/sites/GCGV/IT/_layouts/15/start.aspx#/_layouts/15/viewlsts.aspx" class="em-c-multicolumn-nav__link">Site Contents</a>
           </li>
         </ul>
         <svg
