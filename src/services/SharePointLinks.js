@@ -44,19 +44,22 @@ class SPLinks {
           return response.__next;
         })
     }
+    // console.log('cowboys');
+    // console.log(linksArray);
+    // console.log('spurs');
     return linksArray;
   }
 
   transformItem(item) {
     return {
-      backgroundImage: item.BackgroundImageLocation ? item.BackgroundImageLocation.Description : "",
-      backgroundImageURL: item.BackgroundImageLocation ? item.BackgroundImageLocation.Url : "",
+      backgroundImage: item.Background_x0020_Image_x0020_Loc.Description ? item.Background_x0020_Image_x0020_Loc.Description : "",
+      backgroundImageURL: item.Background_x0020_Image_x0020_Loc.Url ? item.Background_x0020_Image_x0020_Loc.Url : "",
       description: item.Description,
       title: item.Title,
-      order: item.TileOrder,
-      target: item.LaunchBehavior==="New tab"?"_blank":undefined,
-      linkURL: item.LinkLocation? item.LinkLocation.Url: "",
-      linkDescription: item.LinkLocation? item.LinkLocation.Description: ""
+      order: item.Order0,
+      target: item.Launch_x0020_Behavior==="New tab"?"_blank":undefined,
+      linkURL: item.Link_x0020_Location.Url? item.Link_x0020_Location.Url: "",
+      linkDescription: item.Link_x0020_Location.Description? item.Link_x0020_Location.Description: ""
     };
   }
 
