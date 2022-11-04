@@ -67,3 +67,10 @@ export default {
 
 }
 </script>
+
+<style scoped>
+.em-c-section__header--underline-blue .em-c-section__title .em-c-section__title-underline {
+  background-color: rgb(130, 188, 0);
+  background-image: none;
+}
+</style>

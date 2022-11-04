@@ -57,4 +57,8 @@ export default {};
   margin-top: 0;
   background: #fbfbfa
 }
+
+.em-c-multicolumn-nav--horizontal .em-c-multicolumn-nav__item {
+  margin-right: 3rem;
+}
 </style>

@@ -11,7 +11,7 @@
         <div class="em-c-header__title-container">
           <h2 class="em-c-header__title">
             <router-link to="/" rel="home" class="em-c-header__title-link"
-              >GCGV IT Home</router-link
+              >GCGV IT Hub</router-link
             >
           </h2>
         </div>
@@ -81,6 +81,15 @@ export default {
 
 <style scoped>
 header {
-  padding: 0.3rem;
+  padding: 0.5rem;
+}
+
+.em-c-header--blue {
+  background-color: rgb(0, 85, 184);
+  background-image: none;
+}
+
+.em-c-header__title-link {
+  font-size: 2.1rem;
 }
 </style>
