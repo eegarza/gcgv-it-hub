@@ -1,20 +1,19 @@
 <template>
   <header
     class="
-      em-c-header em-c-header--blue em-c-header--condensed
+      em-c-header em-c-header--white em-c-header--condensed
       em-u-margin-bottom-none
     "
     role="banner"
   >
     <div class="em-l-container em-c-header__inner">
       <div class="em-c-header__body">
-        <div class="em-c-header__title-container">
-          <h2 class="em-c-header__title">
-            <router-link to="/" rel="home" class="em-c-header__title-link"
-              >GCGV IT Hub</router-link
-            >
-          </h2>
-        </div>
+            <!-- <router-link to="/" rel="home" class="em-c-header__title-link"
+              > -->
+              <img src="../../public/images/logo.png" class="logo"/>
+              <span class="">  Gulf Coast Growth Ventures</span>
+              <!-- </router-link
+            > -->
         <!-- <button
           class="
             em-c-btn em-c-btn--small em-c-btn--inverted
@@ -84,9 +83,21 @@ header {
   padding: 0.5rem;
 }
 
-.em-c-header--blue {
-  background-color: rgb(0, 85, 184);
+.em-c-header--white {
+  background-color: #e9e9e9;
   background-image: none;
+}
+.em-c-header__body span {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: rgb(20, 33, 92);
+}
+
+.logo {
+  max-width: 3.5rem !important;
+  margin-right: 10px;
+  mix-blend-mode:color-burn;
+  mix-blend-mode: darken;
 }
 
 .em-c-header__title-link {

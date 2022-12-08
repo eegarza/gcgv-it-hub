@@ -733,6 +733,7 @@ main {
  */
 img, video, object {
   max-width: 100%;
+  width: 100px;
   /* 1 */
   height: auto;
   /* 2 */ }
@@ -1066,6 +1067,11 @@ em {
  * 1) Contains the header info such as title, primary navigation, or search in a side-by-side
  *    format, left and right.
  */
+
+.logo {
+  width: 100px !important;
+}
+
 .em-c-header__body {
   padding: 1rem 0;
   display: -ms-flexbox;
@@ -1225,6 +1231,7 @@ em {
  * 1) Styled as a logotype more than a title
  * 2) This is a fix for the flickering weight on resize in Safari
  */
+
 .em-c-header__title-logo {
   font-size: 1.2rem;
   color: #fff;
@@ -1564,6 +1571,9 @@ em {
 /**
  * 1) Represents the logo of ExxonMobil
  */
+
+
+
 .em-c-logo {
   fill: #343434;
   /**
