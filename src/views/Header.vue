@@ -90,7 +90,7 @@ header {
 .em-c-header__body span {
   font-weight: 600;
   font-size: 1.1rem;
-  color: rgb(20, 33, 92);
+  color: rgb(43, 58, 124);
 }
 
 .logo {
