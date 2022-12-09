@@ -1,8 +1,8 @@
 <template>
-  <main class="main" style="background: #f4f9fc">
+  <main class="main" style="background: #f9f9f9">
     <section>
       <vu-container padding="2rem 4rem 3rem">
-        <vu-section underline blue>IT Service Request Links</vu-section>
+        <vu-section  >IT Service Request Links</vu-section>
 
         <ul class="em-c-card-list em-l-grid em-l-grid--4up">
           <li
